@@ -64,16 +64,30 @@ Git & GitHub
 
 ---
 
-## Model Used
+## Models Used
 
-Logistic Regression
+- Logistic Regression
+- Random Forest
+- XGBoost
 
 ---
 
 ## Key Learning
 
-This project focuses on imbalanced classification, where fraud transactions make up less than 1% of the dataset.  
+This project focuses on imbalanced classification, where fraud transactions make up less than 1% of the dataset.
+
 SMOTE is used to generate synthetic fraud samples and improve fraud detection performance.
+
+The project also compares multiple models including Logistic Regression, Random Forest, and XGBoost to evaluate which model performs best for fraud detection.
+
+---
+
+## Future Improvements
+
+- Hyperparameter tuning using GridSearchCV or RandomizedSearchCV
+- Feature scaling and feature selection
+- Visual comparison of model performance
+- Deploying the best fraud detection model using FastAPI or Flask
 
 ---
 
