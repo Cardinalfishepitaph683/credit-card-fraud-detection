@@ -132,23 +132,24 @@ Special focus is given to **Recall and F1-score for the fraud class**, since det
 
 ## Project Structure
 
+```
 credit-card-fraud-detection/
 │
-├── data/ # Dataset folder (place creditcard.csv here)
+├── data/                    # Dataset folder (place creditcard.csv here)
 │
-├── models/ # Saved trained models
+├── models/                  # Saved trained models
 │
-├── src/ # Source code
-│ ├── data_preprocessing.py
-│ ├── train_model.py
-│ └── evaluate_model.py
+├── src/                     # Source code
+│   ├── data_preprocessing.py
+│   ├── train_model.py
+│   └── evaluate_model.py
 │
-├── notebooks/ # Future experimentation notebooks
+├── notebooks/               # Future experimentation notebooks
 │
-├── requirements.txt # Project dependencies
+├── requirements.txt         # Project dependencies
 │
-└── README.md # Project documentation
-
+└── README.md                # Project documentation
+```
 
 ---
 
