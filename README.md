@@ -116,3 +116,8 @@ python src/train_model.py
 Evaluate the model
 
 python src/evaluate_model.py
+
+## Author
+
+Bhushan Patil  
+AI / Machine Learning Engineer
